@@ -10,7 +10,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Graph-Database/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Graph-Database?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Graph-Database/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Graph-Database?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Graph-Database/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Graph-Database?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Graph-Database/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-CC0--1.0-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -62,94 +62,94 @@ Curated list of fully managed Graph Database-as-a-Service (DBaaS) offerings. Sor
 
 ## 💻 Open-Source Graph Databases
 
-Curated self-hosted and open-source graph engines. Sorted by GitHub stars (descending). Each repository includes an official social star badge directly linking to its stargazers list.
+Curated self-hosted and open-source graph engines. Sorted by GitHub_Stars (descending). Each repository includes an official social Stars_Badge directly linking to its stargazers list.
 
-### 1. [SurrealDB](https://github.com/surrealdb/surrealdb) [![GitHub stars](https://img.shields.io/github/stars/surrealdb/surrealdb?style=social&color=white)](https://github.com/surrealdb/surrealdb/stargazers)
+### 1. [SurrealDB](https://github.com/surrealdb/surrealdb) [![GitHub_Stars](https://img.shields.io/github/stars/surrealdb/surrealdb?style=social&color=white)](https://github.com/surrealdb/surrealdb/stargazers)
 * **License**: 📜 Business Source License (BSL 1.1) / Apache 2.0 (client libraries)
 * **Architecture**: 🦀 Multi-model database (document, graph, relational, time-series, vector) written in Rust. Treats record pointers as bidirectional edges for direct pointer traversals without JOIN operations.
 * **Best for**: 🚀 End-to-end fullstack development, serverless apps, and modern multi-model backends requiring realtime live queries.
 
-### 2. [Dgraph](https://github.com/dgraph-io/dgraph) [![GitHub stars](https://img.shields.io/github/stars/dgraph-io/dgraph?style=social&color=white)](https://github.com/dgraph-io/dgraph/stargazers)
+### 2. [Dgraph](https://github.com/dgraph-io/dgraph) [![GitHub_Stars](https://img.shields.io/github/stars/dgraph-io/dgraph?style=social&color=white)](https://github.com/dgraph-io/dgraph/stargazers)
 * **License**: 📜 Apache 2.0
 * **Architecture**: 🐹 Native distributed transactional graph database written in Go. Executes queries natively in GraphQL and DQL (GraphQL+-). Scales horizontally across clusters with Raft consensus.
 * **Best for**: 🌐 GraphQL-native microservice architectures, deeply nested social networks, and horizontally sharded applications.
 
-### 3. [Neo4j Community Edition](https://github.com/neo4j/neo4j) [![GitHub stars](https://img.shields.io/github/stars/neo4j/neo4j?style=social&color=white)](https://github.com/neo4j/neo4j/stargazers)
+### 3. [Neo4j Community Edition](https://github.com/neo4j/neo4j) [![GitHub_Stars](https://img.shields.io/github/stars/neo4j/neo4j?style=social&color=white)](https://github.com/neo4j/neo4j/stargazers)
 * **License**: 📜 GPL v3 (Enterprise features are closed-source/commercial)
 * **Architecture**: ☕ Native property graph engine with index-free adjacency. Standard-bearer for the Cypher query language with the largest ecosystem of tools (APOC library, Neo4j Browser, Bloom visualization).
 * **Best for**: 🏆 General-purpose graph analytics, enterprise knowledge graphs, and teams wanting the standard graph developer talent pool.
 
-### 4. [Cayley](https://github.com/CayleyGraph/cayley) [![GitHub stars](https://img.shields.io/github/stars/CayleyGraph/cayley?style=social&color=white)](https://github.com/CayleyGraph/cayley/stargazers)
+### 4. [Cayley](https://github.com/CayleyGraph/cayley) [![GitHub_Stars](https://img.shields.io/github/stars/CayleyGraph/cayley?style=social&color=white)](https://github.com/CayleyGraph/cayley/stargazers)
 * **License**: 📜 Apache 2.0
 * **Architecture**: 🐹 Open-source graph database written in Go inspired by Freebase and Google Knowledge Graph. Pluggable backend storage (LevelDB, BoltDB, PostgreSQL, MongoDB).
 * **Best for**: 🔍 Fast Linked Data / RDF graph applications and lightweight semantic web services.
 
-### 5. [ArangoDB Community Edition](https://github.com/arangodb/arangodb) [![GitHub stars](https://img.shields.io/github/stars/arangodb/arangodb?style=social&color=white)](https://github.com/arangodb/arangodb/stargazers)
+### 5. [ArangoDB Community Edition](https://github.com/arangodb/arangodb) [![GitHub_Stars](https://img.shields.io/github/stars/arangodb/arangodb?style=social&color=white)](https://github.com/arangodb/arangodb/stargazers)
 * **License**: 📜 ArangoDB Community License (Source Available / Free up to 100 GB)
 * **Architecture**: 🥑 Native multi-model database unifying graphs, JSON documents, full-text search, and key-values under the declarative AQL language.
 * **Best for**: 📑 Applications requiring complex joins and document stores with graph traversal across unified collections.
 
-### 6. [NebulaGraph](https://github.com/vesoft-inc/nebula) [![GitHub stars](https://img.shields.io/github/stars/vesoft-inc/nebula?style=social&color=white)](https://github.com/vesoft-inc/nebula/stargazers)
+### 6. [NebulaGraph](https://github.com/vesoft-inc/nebula) [![GitHub_Stars](https://img.shields.io/github/stars/vesoft-inc/nebula?style=social&color=white)](https://github.com/vesoft-inc/nebula/stargazers)
 * **License**: 📜 Apache 2.0
 * **Architecture**: ⚡ Distributed, shared-nothing native graph engine in C++ with separate compute and storage layers. Designed to handle tens of billions of vertices and trillions of edges with millisecond response times.
 * **Best for**: 🪐 Super large-scale enterprise graph analytics, financial fraud detection networks, and high-concurrency traversals.
 
-### 7. [FalkorDB](https://github.com/FalkorDB/FalkorDB) [![GitHub stars](https://img.shields.io/github/stars/FalkorDB/FalkorDB?style=social&color=white)](https://github.com/FalkorDB/FalkorDB/stargazers)
+### 7. [FalkorDB](https://github.com/FalkorDB/FalkorDB) [![GitHub_Stars](https://img.shields.io/github/stars/FalkorDB/FalkorDB?style=social&color=white)](https://github.com/FalkorDB/FalkorDB/stargazers)
 * **License**: 📜 Server Side Public License (SSPL)
 * **Architecture**: 🧠 Ultra-low-latency graph database powered by GraphBLAS sparse matrix linear algebra and vector indexing. Built by the former RedisGraph team to deliver sub-millisecond multi-hop graph queries.
 * **Best for**: 🤖 GraphRAG (Retrieval-Augmented Generation) for LLMs, real-time agent memory, and vector-graph hybrid queries.
 
-### 8. [JanusGraph](https://github.com/JanusGraph/janusgraph) [![GitHub stars](https://img.shields.io/github/stars/JanusGraph/janusgraph?style=social&color=white)](https://github.com/JanusGraph/janusgraph/stargazers)
+### 8. [JanusGraph](https://github.com/JanusGraph/janusgraph) [![GitHub_Stars](https://img.shields.io/github/stars/JanusGraph/janusgraph?style=social&color=white)](https://github.com/JanusGraph/janusgraph/stargazers)
 * **License**: 📜 Apache 2.0 (Linux Foundation Project)
 * **Architecture**: 🧱 Distributed property graph database leveraging pluggable storage (Apache Cassandra, Apache HBase, ScyllaDB) and pluggable search indexing (Elasticsearch, OpenSearch, Apache Solr). Supports Apache TinkerPop Gremlin.
 * **Best for**: 🐘 Big Data pipelines and massively distributed graphs spanning hundreds of billions of nodes.
 
-### 9. [Apache AGE](https://github.com/apache/age) [![GitHub stars](https://img.shields.io/github/stars/apache/age?style=social&color=white)](https://github.com/apache/age/stargazers)
+### 9. [Apache AGE](https://github.com/apache/age) [![GitHub_Stars](https://img.shields.io/github/stars/apache/age?style=social&color=white)](https://github.com/apache/age/stargazers)
 * **License**: 📜 Apache 2.0
 * **Architecture**: 🐘 Native PostgreSQL extension implementing the openCypher graph query specification. Queries graph topologies side-by-side with relational SQL data inside existing PostgreSQL tables.
 * **Best for**: 🧩 Teams with existing PostgreSQL infrastructure who want native graph queries without deploying a separate database.
 
-### 10. [Memgraph](https://github.com/memgraph/memgraph) [![GitHub stars](https://img.shields.io/github/stars/memgraph/memgraph?style=social&color=white)](https://github.com/memgraph/memgraph/stargazers)
+### 10. [Memgraph](https://github.com/memgraph/memgraph) [![GitHub_Stars](https://img.shields.io/github/stars/memgraph/memgraph?style=social&color=white)](https://github.com/memgraph/memgraph/stargazers)
 * **License**: 📜 Business Source License (BSL 1.1)
 * **Architecture**: ⚡ High-performance in-memory property graph engine written in C++. Fully Cypher-compatible and ACID compliant with native streaming connectors (Kafka, Redpanda, Apache Pulsar).
 * **Best for**: ⏱️ Real-time fraud detection, live cybersecurity telemetry, streaming recommendation engines, and Cypher migrations.
 
-### 11. [TypeDB](https://github.com/typedb/typedb) [![GitHub stars](https://img.shields.io/github/stars/typedb/typedb?style=social&color=white)](https://github.com/typedb/typedb/stargazers)
+### 11. [TypeDB](https://github.com/typedb/typedb) [![GitHub_Stars](https://img.shields.io/github/stars/typedb/typedb?style=social&color=white)](https://github.com/typedb/typedb/stargazers)
 * **License**: 📜 Apache 2.0
 * **Architecture**: 🧬 Strongly-typed database with an expressive polymorphic type system (Entity-Relation-Attribute model) and TypeQL query language. Features automatic deductive reasoning and inference.
 * **Best for**: 🔬 Complex domains, semantic knowledge bases, drug discovery, and ontology-driven data modeling.
 
-### 12. [CozoDB](https://github.com/cozodb/cozo) [![GitHub stars](https://img.shields.io/github/stars/cozodb/cozo?style=social&color=white)](https://github.com/cozodb/cozo/stargazers)
+### 12. [CozoDB](https://github.com/cozodb/cozo) [![GitHub_Stars](https://img.shields.io/github/stars/cozodb/cozo?style=social&color=white)](https://github.com/cozodb/cozo/stargazers)
 * **License**: 📜 MPL 2.0
 * **Architecture**: 🦀 General-purpose transactional graph database using Datalog for queries. Runs in embedded mode (via Rust, Python, NodeJS, Wasm) or standalone with RocksDB, SQLite, or S3 backends. Supports vector search and time-travel.
 * **Best for**: 🧮 Embedded applications, algorithmic graph computations, and hybrid relational-graph-vector pipelines.
 
-### 13. [Kùzu](https://github.com/kuzudb/kuzu) [![GitHub stars](https://img.shields.io/github/stars/kuzudb/kuzu?style=social&color=white)](https://github.com/kuzudb/kuzu/stargazers)
+### 13. [Kùzu](https://github.com/kuzudb/kuzu) [![GitHub_Stars](https://img.shields.io/github/stars/kuzudb/kuzu?style=social&color=white)](https://github.com/kuzudb/kuzu/stargazers)
 * **License**: 📜 MIT
 * **Architecture**: 🦆 Embedded property graph database optimized for analytical workloads (OLAP) and GraphRAG. In-process execution (like DuckDB/SQLite), openCypher query interface, columnar storage, vectorized query execution, and built-in vector search.
 * **Best for**: 🧪 Local data science pipelines, in-memory LLM GraphRAG workflows, and zero-management embedded graph storage.
 
-### 14. [TerminusDB](https://github.com/terminusdb/terminusdb) [![GitHub stars](https://img.shields.io/github/stars/terminusdb/terminusdb?style=social&color=white)](https://github.com/terminusdb/terminusdb/stargazers)
+### 14. [TerminusDB](https://github.com/terminusdb/terminusdb) [![GitHub_Stars](https://img.shields.io/github/stars/terminusdb/terminusdb?style=social&color=white)](https://github.com/terminusdb/terminusdb/stargazers)
 * **License**: 📜 Apache 2.0
 * **Architecture**: 🐮 Document-graph database featuring succinct data structures and git-like revision control (branch, merge, rebase, diff, and time-travel querying).
 * **Best for**: 🔀 Collaborative data mesh, data versioning, compliance audits, and regulatory data lineage tracking.
 
-### 15. [Apache HugeGraph](https://github.com/apache/incubator-hugegraph) [![GitHub stars](https://img.shields.io/github/stars/apache/incubator-hugegraph?style=social&color=white)](https://github.com/apache/incubator-hugegraph/stargazers)
+### 15. [Apache HugeGraph](https://github.com/apache/incubator-hugegraph) [![GitHub_Stars](https://img.shields.io/github/stars/apache/incubator-hugegraph?style=social&color=white)](https://github.com/apache/incubator-hugegraph/stargazers)
 * **License**: 📜 Apache 2.0 (Apache Incubator)
 * **Architecture**: 🌐 Highly scalable distributed graph database compliant with Apache TinkerPop Gremlin. Backed by RocksDB, Cassandra, or HBase with multi-level caching.
 * **Best for**: 📈 Billion-to-trillion edge enterprise graphs requiring integration with the Apache TinkerPop stack.
 
-### 16. [TuGraph-DB](https://github.com/TuGraph-family/tugraph-db) [![GitHub stars](https://img.shields.io/github/stars/TuGraph-family/tugraph-db?style=social&color=white)](https://github.com/TuGraph-family/tugraph-db/stargazers)
+### 16. [TuGraph-DB](https://github.com/TuGraph-family/tugraph-db) [![GitHub_Stars](https://img.shields.io/github/stars/TuGraph-family/tugraph-db?style=social&color=white)](https://github.com/TuGraph-family/tugraph-db/stargazers)
 * **License**: 📜 Apache 2.0 (Co-developed by Ant Group & Tsinghua University)
 * **Architecture**: 🏦 High-throughput distributed graph database engine supporting terabyte-scale data with Cypher and Gremlin querying, built-in graph analytics algorithms, and stored procedures.
 * **Best for**: 💳 Financial risk control, transaction graph mining, and high-throughput enterprise OLTP graph systems.
 
-### 17. [Apache Jena](https://github.com/apache/jena) [![GitHub stars](https://img.shields.io/github/stars/apache/jena?style=social&color=white)](https://github.com/apache/jena/stargazers)
+### 17. [Apache Jena](https://github.com/apache/jena) [![GitHub_Stars](https://img.shields.io/github/stars/apache/jena?style=social&color=white)](https://github.com/apache/jena/stargazers)
 * **License**: 📜 Apache 2.0
 * **Architecture**: ☕ Established open-source Java framework and triple store (TDB2 / Fuseki) for building Semantic Web and Linked Data applications. Complete SPARQL 1.1 query engine and rule-based inference.
 * **Best for**: 🏛️ Academic knowledge graphs, government ontology publishing, and W3C semantic web standards.
 
-### 18. [ArcadeDB](https://github.com/ArcadeData/arcadedb) [![GitHub stars](https://img.shields.io/github/stars/ArcadeData/arcadedb?style=social&color=white)](https://github.com/ArcadeData/arcadedb/stargazers)
+### 18. [ArcadeDB](https://github.com/ArcadeData/arcadedb) [![GitHub_Stars](https://img.shields.io/github/stars/ArcadeData/arcadedb?style=social&color=white)](https://github.com/ArcadeData/arcadedb/stargazers)
 * **License**: 📜 Apache 2.0
 * **Architecture**: 🕹️ Next-generation multi-model database engine created by the original author of OrientDB. Natively supports Cypher, Gremlin, SQL, GraphQL, and full-text search.
 * **Best for**: 📦 High-density multi-model graph and document workloads with low memory footprint.
@@ -177,7 +177,7 @@ Contributions are warmly welcome! Please follow these steps to add or update an 
 1. 🍴 **Fork** this repository.
 2. 📝 Edit `README.md` following the established table or list formatting.
 3. 🏷️ Ensure every SaaS product includes specific starting prices, exact free tier limits, and company scale metrics.
-4. ⭐ Ensure open-source projects include official star badges linking directly to their `/stargazers` URL and are sorted by star count.
+4. ⭐ Ensure open-source projects include official Stars_Badges linking directly to their `/stargazers` URL and are sorted by Stars_Count.
 5. 🚀 Submit a **Pull Request** with a descriptive summary of changes.
 
 ---
